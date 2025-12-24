@@ -37,6 +37,7 @@ window.addEventListener("scroll", () => {
 });
 
 function showScrollWarning() {
-  alert("⚠️ Doom scrolling detected. Back to goal?");
+  alert("⚠️ Too much scrolling detected. Take a short break."
+);
   scrollCount = 0;
 }
